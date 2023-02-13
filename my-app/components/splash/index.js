@@ -1,4 +1,4 @@
-import Styles from "../splash/splash.module.css"
+import Styles from "../splash/splash.module.scss"
 import InfoConatiner from "./infoContainer";
 
 const Splash = () => {

@@ -1,6 +1,6 @@
 import * as React from "react";
 import Link from "next/link";
-import NavStyles from "../nav/nav.module.css"
+import NavStyles from "../nav/nav.module.scss"
 
 
 const Nav = () => {
