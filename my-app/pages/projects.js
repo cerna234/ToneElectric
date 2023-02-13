@@ -1,10 +1,4 @@
 import Head from 'next/head'
-import Splash from '@/components/splash'
-
-
-
-
-
 
 export default function Home() {
   return (
@@ -16,8 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Splash></Splash>
-
+        <h1>PROJECTS PAGE</h1>
       </main>
     </>
   )
