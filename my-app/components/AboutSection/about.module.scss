@@ -1,0 +1,48 @@
+@import "../baseStyles/baseStyles.scss";
+
+@mixin imageSizes{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+.AboutContainer{
+    @include ComponentLayout;
+    background-color: rgba(64, 64, 65, 1);
+    
+}
+
+.innerContainer{
+    @include innerContainerComponent;
+    
+    
+}
+
+.aboutSectionContainer{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    @include flexStyleOne;
+   
+    
+}
+
+.aboutTitle{
+    font-size: $Title-size;
+}
+
+.aboutImageOne{
+    width: 60%;
+    height: 50%;
+    background-color: rgb(53, 34, 34);
+    @include imageSizes;
+}
+
+.aboutImageTwo{
+    width: 60%;
+    height: 50%;
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    @include imageSizes;
+}

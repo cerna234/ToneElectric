@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Splash from '@/components/splash'
+import AboutSection from '@/components/AboutSection'
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <Splash></Splash>
+        <AboutSection/>
 
       </main>
     </>
