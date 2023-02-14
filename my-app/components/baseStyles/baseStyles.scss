@@ -1,5 +1,6 @@
 $Title-color: rgb(226, 226, 226);
 $Title-size: 55px;
+$SubText-size: 25px;
 $max-Component-Height: 700px;
 $min-Component-Height: 500px;
 @mixin flexStyleOne{
@@ -9,6 +10,12 @@ $min-Component-Height: 500px;
     
 }
 
+@mixin flexStyleTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
 @mixin ComponentLayout {
     width: 100%;
