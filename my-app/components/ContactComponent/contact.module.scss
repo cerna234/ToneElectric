@@ -1,0 +1,7 @@
+@import "../baseStyles/baseStyles.scss";
+
+
+.contactContainer{
+    @include ComponentLayout;
+    background-color: rgba(43, 41, 41, 1);
+}

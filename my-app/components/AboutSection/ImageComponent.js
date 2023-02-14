@@ -1,6 +1,6 @@
 import Styles from "../AboutSection/about.module.scss"
 import Image from "next/image";
-import Img1 from "../../public/Images/aboutImg.png"
+import Img1 from "../../public/Images/amzFresh.png"
 import Img2 from "../../public/Images/aboutImg2.png"
 const ImageComponent = () => {
     return(
