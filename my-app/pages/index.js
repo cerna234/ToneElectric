@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Splash from '@/components/splash'
 import AboutSection from '@/components/AboutSection'
+import ContactComponent from '@/components/ContactComponent'
+
 import Logo from "../public/Images/logo.png"
 
 
@@ -20,6 +22,7 @@ export default function Home() {
       <main>
         <Splash></Splash>
         <AboutSection/>
+        <ContactComponent/>
 
       </main>
     </>
