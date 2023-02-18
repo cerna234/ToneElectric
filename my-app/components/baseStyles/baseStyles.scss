@@ -1,8 +1,8 @@
 $Title-color: rgb(226, 226, 226);
 $Title-size: 55px;
 $SubText-size: 25px;
-$max-Component-Height: 700px;
-$min-Component-Height: 500px;
+$max-Component-Height: 900px;
+
 @mixin flexStyleOne{
     display: flex;
     flex-direction: column;
@@ -24,7 +24,6 @@ $min-Component-Height: 500px;
     justify-content: center;
     align-items: center;
     max-height: $max-Component-Height;
-    min-height: $min-Component-Height;
     
 }
 
