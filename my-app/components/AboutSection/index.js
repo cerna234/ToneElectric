@@ -6,8 +6,9 @@ const AboutSection = () => {
     return(
         <div className={Styles.AboutContainer}>
             <div className={Styles.innerContainer}>
-                <ImageComponent/>
                 <AboutInfo/>
+                <ImageComponent/>
+                
              
             </div>
         </div>
