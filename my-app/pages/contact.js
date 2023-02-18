@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import ContactComponent from '@/components/contact/ContactComponent'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>CONTACT</h1>
+        <ContactComponent/>
       </main>
     </>
   )

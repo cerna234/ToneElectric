@@ -1,0 +1,52 @@
+@import "../../baseStyles/baseStyles.scss";
+
+
+.contactCallToActionContainer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgba(43, 41, 41, 1);
+    background-image: url("https://i.pinimg.com/originals/18/ed/84/18ed84402e70c4ceaeb6239e7b6c7436.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.ContactCallToActionInner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(6, 5, 5, 0.866),rgba(72, 72, 72, 0.179));
+}
+.ContactCallToActionInnerOverlay{
+    width: 100%;
+    height: 100%;
+    @include innerContainerComponent;
+    flex-direction: column;
+
+    
+}
+
+.callToActionTitle{
+    color: rgba(255, 255, 255, 0);
+    
+	-webkit-text-stroke: 1px rgb(255, 255, 255);
+    text-shadow: 15px 15px 10px rgba(9, 9, 9, 0.251);
+    font-size: 100px;
+    width: 80%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.callToActionTitleSpan{
+    color: aqua;
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0);
+}
+
+.callToActionButton{
+    @include buttonStyle;
+}
