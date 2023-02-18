@@ -1,7 +1,12 @@
 $Title-color: rgb(226, 226, 226);
-$Title-size: 55px;
+$Title-size: 75px;
 $SubText-size: 25px;
 $max-Component-Height: 900px;
+$min-Component-Height: 500px;
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&');
+$title-font:  'Inria Sans', sans-serif;
+
 
 @mixin flexStyleOne{
     display: flex;
@@ -15,6 +20,7 @@ $max-Component-Height: 900px;
     flex-direction: row;
     justify-content: space-between;
     
+    
 }
 
 @mixin ComponentLayout {
@@ -24,6 +30,9 @@ $max-Component-Height: 900px;
     justify-content: center;
     align-items: center;
     max-height: $max-Component-Height;
+    min-height: $min-Component-Height;
+    font-family: $title-font;
+
     
 }
 
@@ -38,5 +47,18 @@ $max-Component-Height: 900px;
    
 
 }
+
+@mixin buttonStyle{
+    width: 170px;
+    padding: 17px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.39);
+    border: 2px solid white;
+    color: rgb(223, 225, 225);
+    text-shadow: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
 
 
