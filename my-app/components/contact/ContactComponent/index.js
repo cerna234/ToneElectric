@@ -1,9 +1,12 @@
 import Styles from "../ContactComponent/contact.module.scss"
+import ContactHeader from "./ContactHeader";
+import ContactForm from "./ContactForm";
 
 const ContactComponent = () => {
     return(
-        <div className={Styles.contactContainer}>
-            <p>CONTACT</p>
+        <div >
+            <ContactHeader/>
+            <ContactForm/>
         </div>
     )
 }
