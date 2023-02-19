@@ -6,7 +6,7 @@ const ContactHeader = () => {
             <div className={Styles.headerInfo}>
                 <h2>WELCOME TO TONE ELECTRIC</h2>
                 <p>Interested?</p>
-                <p>Fill the form and we'll be in touch</p>
+                <p>Fill the form and we&apos;ll be in touch</p>
             </div>
 
         </div>

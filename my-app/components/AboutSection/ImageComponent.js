@@ -8,6 +8,7 @@ const ImageComponent = () => {
            <Image 
             src={Img2}
             className={Styles.aboutImage}
+            alt="building image"
            />
         </div>
     )

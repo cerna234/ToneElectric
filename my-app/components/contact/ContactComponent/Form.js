@@ -37,6 +37,7 @@ const Form = () => {
                 <Image 
                     src={mapImage}
                     className={Styles.mapImage}
+                    alt="Map of Tone Electric Location"
                 />
             </div>
         </div>

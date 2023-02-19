@@ -11,7 +11,7 @@ const Nav = () => {
       <div>
           <Image
           src={Logo}
-        
+          alt="logo"
           width={100}
           heigh={200}
           />
