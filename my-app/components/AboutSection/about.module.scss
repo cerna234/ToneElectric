@@ -68,10 +68,66 @@
     box-shadow: 5px 5px 15px aqua;
 }
 .aboutInfoTitle{
-    font-size: 50px;
+    font-size: $large-Title-size-Desktop - 20;
 }
 
 .aboutInfoText{
-    font-size: 25px;
+    font-size: $SubText-size-Desktop ;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 800px) {
+    .aboutInfoTitle{
+        font-size: $large-Title-size-mobile - 20;
+    }
+    
+    .aboutInfoText{
+        font-size: $SubText-size-mobile;
+    }
+
+    .AboutContainer{
+        height: 150vh;
+    }
+    .innerContainer{
+       flex-direction: column;
+    }
+
+    .aboutSectionContainer{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+ 
+    }
+
+    .barContainer{
+        width: 100%;
+        height: 20%;
+    }
+    .bar {
+        width: 100%;
+        height: 20px;
+        box-shadow: 4px 4px 5px rgba(6, 165, 165, 0.376);
+      }
+      
+      
+    
+    .infoContainer{
+        width: 100%;
+        height: 100%;
+        
+    
+    }
+    
+    .info{
+        width: 100%;
+        height: 80%;
+      
+    }
+    
+    .aboutImage{
+        width: 100%;
+        height: 80%;
+        box-shadow: 5px 5px 10px rgba(0, 255, 255, 0.22);
+    }
+
+  }
