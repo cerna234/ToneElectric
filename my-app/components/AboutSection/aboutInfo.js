@@ -1,7 +1,6 @@
 
 import Styles from "../AboutSection/about.module.scss"
 import Link from "next/link";
-import { ST } from "next/dist/shared/lib/utils";
 
 
 const AboutInfo = () => {

@@ -32,9 +32,10 @@
 
 .info p{
     color: rgba(231, 231, 231, 0.619);
+    font-size: $SubText-size-Desktop;
 }
 .info h2{
-    font-size: $Title-size;
+    font-size: $large-Title-size-Desktop;
 }
 .info h2 span {
     color: rgba(72, 184, 200, 1);
@@ -50,3 +51,19 @@
     @include buttonStyle;
 }
 
+@media only screen and (max-width: 600px) {
+    .infoContainer{
+        justify-content: center;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    .info p{
+        font-size: $SubText-size-mobile;
+        text-align: left;
+    }
+    .info h2{
+        text-align: left;
+        font-size: $large-Title-size-mobile;
+    }
+  }
