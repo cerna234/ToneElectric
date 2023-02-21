@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Splash from '@/components/splash'
 import AboutSection from '@/components/AboutSection'
 import ContactCallToAction from '@/components/contact/contactCallToAction'
-import ContactComponent from '@/components/contact/ContactComponent'
 import Logo from "../public/Images/logo.png"
+import ContactComponent from '@/components/contact/ContactComponent'
 
 
 
@@ -22,7 +22,8 @@ export default function Home() {
       <main>
         <Splash></Splash>
         <AboutSection/>
-        <ContactCallToAction/>
+        <ContactComponent/>
+       
   
 
       </main>
