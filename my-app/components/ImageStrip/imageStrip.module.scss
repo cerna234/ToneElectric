@@ -1,0 +1,23 @@
+.imageStripContainer{
+    width: 100%;
+    height: 25vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.image{
+    width: 33.3%;
+    height: 100%;
+    filter: grayscale(100%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.248);
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .imageStripContainer{
+       display: none;
+    }
+
+  }
