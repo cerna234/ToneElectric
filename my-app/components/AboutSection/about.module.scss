@@ -54,7 +54,7 @@
 }
 
 .info{
-    width: 80%;
+    width: 100%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -72,8 +72,24 @@
 }
 
 .aboutInfoText{
-    font-size: $SubText-size-Desktop ;
-    font-weight: 400;
+    width: 100%;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600;
+    
+    
+}
+
+.aboutInfoText p{
+    font-size: 10px;
+    
+    line-height: 2;
+
+    
 }
 
 @media only screen and (max-width: 800px) {
@@ -128,6 +144,14 @@
         width: 100%;
         height: 80%;
         box-shadow: 5px 5px 10px rgba(0, 255, 255, 0.22);
+    }
+
+    .aboutInfoText p{
+        font-size: 10px;
+        
+        line-height: 1;
+    
+        
     }
 
   }

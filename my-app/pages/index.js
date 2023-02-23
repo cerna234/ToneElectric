@@ -4,6 +4,7 @@ import AboutSection from '@/components/AboutSection'
 import ContactCallToAction from '@/components/contact/contactCallToAction'
 import ContactComponent from '@/components/contact/ContactComponent'
 import Logo from "../public/Images/logo.png"
+import RecentWorksCallToAction from '@/components/recentWorks/recentWorksCallToAction'
 
 
 
@@ -22,7 +23,9 @@ export default function Home() {
       <main>
         <Splash></Splash>
         <AboutSection/>
+        <RecentWorksCallToAction/>
         <ContactCallToAction/>
+        
   
 
       </main>

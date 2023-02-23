@@ -19,7 +19,20 @@ const AboutInfo = () => {
                 <div className={Styles.infoContainer}>
                     <div className={Styles.info}>
                         <h2 className={Styles.aboutInfoTitle}>ABOUT TONE ELECTRIC</h2>
-                        <p className={Styles.aboutInfoText}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the standard dummy text ever since the 1500s, when an unknown printer took a </p>
+                        <div className={Styles.aboutInfoText}>
+                            <p>
+                                If you need electrical service or maintenance on your office building or industrial complex, contact locally-owned Tone Electric. Our licensed CA electricians will trace out shorts, install new lighting or run electrical lines, Circuits, Case Connections, Cooler Box Connections, Power walls, Lighting control, and more.
+                            
+                                Our experts are available to work with construction companies on light commercial projects and will follow the electrical engineer’s plans, install according to specs and have everything ready for the city engineers to approve the final hookup. We’ll take care of the permits and schedule the appropriate inspections.
+                          
+
+                       
+                                We’ve licensed CA electricians and work in Southern CA and Mid County. Contact us today for an estimate on your commercial electrical work. To power up your savings.
+
+                                Tone Electric has been operating for the last 20yrs locally owned.
+                            </p>
+                        
+                        </div>
                         <Link href="/">Learn More About Our team</Link>
                     </div>
                 </div>
