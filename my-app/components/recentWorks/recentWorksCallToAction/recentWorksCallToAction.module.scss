@@ -1,0 +1,124 @@
+@import "../../baseStyles/baseStyles.scss";
+
+
+
+.RecentWorksCallToActionContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: rgb(41, 41, 41);
+
+  
+}
+
+.companyName{
+
+    color: rgba(133, 133, 133, 0.107);
+    font-family: $title-font;
+    font-weight: bold;
+    font-size: 60px;
+    height: 80%;
+    display: block;
+    position: absolute;
+    right: 0;
+    border: none;
+    box-sizing: 0;
+    writing-mode:vertical-lr;
+    transform: rotate(-180deg);
+    z-index: 1;
+}
+
+.companyNameSpan{
+    color: rgba(0, 255, 255, 0.148);
+}
+
+
+.innerContainer{
+    width: 70%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+.RecentWorksContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageCard{
+    width: 220px;
+    height: 300px;
+   box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.165);
+   
+}
+
+.worksImg{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+
+    
+}
+
+.worksContent{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(103, 101, 101);
+    display: flex;
+    
+    align-items: center;
+    
+}
+
+.worksContentInner{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.RecentWorksTitle{
+    font-size: 30px;
+}
+
+.RecentWorksSubtext{
+    font-size: 20px;
+    padding-top: 20px;
+    color: aqua;
+}
+
+
+.worksContentTitle{
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    height: 10%;
+}
+
+.worksContentSubtext{
+    color: rgb(20, 77, 112);
+    font-weight: bold;
+    height: 10%;
+}
+.worksContentDescription{
+    color: rgba(216, 216, 216, 0.878);
+    height: 60%
+    
+}
+
+
+.RecentWorksCallToActionButton{
+    @include buttonStyle;
+}
+
