@@ -33,12 +33,8 @@ const Form = () => {
                 <ValidationError errors={state.errors} />
              </form>
             </div>
-            <div className={Styles.mapImageContainer}>
-                <Image 
-                    src={mapImage}
-                    className={Styles.mapImage}
-                    alt="Map of Tone Electric Location"
-                />
+            <div style={{backgroundImage:`url(${mapImage.src})`}} className={Styles.mapImageContainer}>
+             
             </div>
         </div>
 

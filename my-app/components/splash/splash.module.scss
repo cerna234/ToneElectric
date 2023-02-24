@@ -5,6 +5,9 @@
     @include ComponentLayout;
     background-image: url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80");
     background-size: cover;
+  
+    min-height: $min-Component-Height;
+    
 }
 
 
@@ -16,6 +19,8 @@
     align-items: center;
     padding-left: 20%;
     
+  
+    
 }
 
 .info{
@@ -24,10 +29,8 @@
     @include flexStyleOne;
     justify-content: space-between;
     max-height: 400px;
-}
-
-.info{
     text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.475);
+    
 }
 
 .info p{
@@ -55,15 +58,27 @@
     .infoContainer{
         justify-content: center;
         padding-left: 0%;
+        width: 100%;
         text-align: center;
     }
 
     .info p{
         font-size: $SubText-size-mobile;
-        text-align: left;
+        text-align: center;
     }
     .info h2{
-        text-align: left;
+        text-align: center;
         font-size: $large-Title-size-mobile;
     }
+
+
+    .info{
+        width: 90%;
+        height: 60%;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    
   }

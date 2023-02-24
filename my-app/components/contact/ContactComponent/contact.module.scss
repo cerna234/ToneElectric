@@ -6,15 +6,21 @@
 .contactHeaderComponent{
     width: 100%;
     height: 50vh;
+    background-image: url("https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1773&q=80");
+    background-size: cover;
+    
+
+}
+
+.contactHeaderOverlay{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-image: url("https://images.unsplash.com/photo-1500731250117-4b0cbb8b276a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&q=80");
-    background-size: cover;
-
+    background-color: rgba(0, 0, 0, 0.73);
 }
-
 
 
 .headerInfo{
@@ -106,18 +112,40 @@
 }
 
 .mapImageContainer{
-    width: 40%;
-    height: 100%;
-}
-
-.mapImage{
     width: 100%;
     height: 100%;
-    filter: brightness(80%);
+    background-size: cover;
 }
+
+
 
 .contactContainer{
     width: 70%;
     height: 100%;
     background-color: rgba(31, 31, 31, 1);
+}
+
+@media screen and (max-width:800px) {
+    .formContainer{
+        width: 80%;
+        flex-direction: column;
+    
+    }
+
+    .mapImageContainer{
+        width: 100%;
+        height: 30%;
+    }
+
+
+    .formInputs{
+        width: 100%;
+        height: 70%;
+    }
+ 
+    .contactFormContainer{
+        width: 100%;
+        height: 120vh;
+    }
+    
 }

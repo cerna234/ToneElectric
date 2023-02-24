@@ -2,8 +2,11 @@ import Styles from "../recentWorksCallToAction/recentWorksCallToAction.module.sc
 import RecentWorks from "../recentWorksData"
 import Link from "next/link"
 
+
 const RecentWorksCallToAction = () => {
     return(
+
+ 
         <div className = {Styles.RecentWorksCallToActionContainer}>
             <p className={Styles.companyName}>TONE <span className={Styles.companyNameSpan}>ELECTRIC</span></p>
 
@@ -40,6 +43,8 @@ const RecentWorksCallToAction = () => {
                 <Link className={Styles.RecentWorksCallToActionButton} href="/">View All</Link>
             </div>
         </div>
+
+       
     )
 }
 
