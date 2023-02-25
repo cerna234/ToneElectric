@@ -5,12 +5,17 @@ import AboutInfo from "./aboutInfo";
 const AboutSection = () => {
     return(
         <div className={Styles.AboutContainer}>
-            <div className={Styles.innerContainer}>
+
+            <div className={Styles.aboutInnerContainer}>   
                 <AboutInfo/>
                 <ImageComponent/>
+
+            </div>
+            
+             
                 
              
-            </div>
+            
         </div>
     )
 }

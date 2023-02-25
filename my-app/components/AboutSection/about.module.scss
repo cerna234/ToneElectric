@@ -1,156 +1,160 @@
 @import "../baseStyles/baseStyles.scss";
 
 
-
 .AboutContainer{
-    @include ComponentLayout;
-    background-color: rgba(64, 64, 65, 1);
-    min-height: $min-Component-Height;
-    
-}
-
-.innerContainer{
-    @include innerContainerComponent;
-    
-    
-}
-
-.aboutSectionContainer{
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(46, 46, 46);
     display: flex;
-    justify-content: space-between;
     justify-content: center;
     align-items: center;
-    max-height: $max-Component-Height;
-
-   
-    
 }
 
-.barContainer{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.bar {
-    width: 20px;
-    height: 80%;
-    text-align: center;
-    background-color: aqua;
-
-  }
-  
-  
-
-.infoContainer{
+.aboutInnerContainer{
     width: 80%;
     height: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
 
-.info{
-    width: 100%;
+
+.aboutSectionContainer{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoContainer{
+    width: 80%;
     height: 80%;
+    padding-left: 10%;
+    border-left: 30px solid aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    text-align: left;
+}
+
+.aboutSectionImageContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutImage{
-    width: 70%;
-    height: 80%;
-    box-shadow: 5px 5px 15px aqua;
+    width: 80%;
+    height: 78%;
+    box-shadow: 5px 5px 9px rgb(2, 156, 211);
 }
+
+
 .aboutInfoTitle{
-    font-size: $large-Title-size-Desktop - 20;
+    font-size: 3em;
+    font-family: $title-font;
 }
 
-.aboutInfoText{
-    width: 100%;
-    height: 30vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 600;
-    
-    
-}
-
-.aboutInfoText p{
-    font-size: 10px;
-    
+.aboutText{
+    font-size: .8em;
+    font-family: $title-font;
+    text-align: left;
     line-height: 2;
-
-    
+   
 }
 
-@media only screen and (max-width: 800px) {
-    .aboutInfoTitle{
-        font-size: $large-Title-size-mobile - 20;
+
+
+@media only screen and (max-width: 1000px){
+    
+   
+    .AboutContainer{
+        height: 130vh;
+        background-color: rgb(46, 46, 46);
+        
     }
     
-    .aboutInfoText{
-        font-size: $SubText-size-mobile;
-    }
+    .aboutInnerContainer{
+        width: 90%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
 
-    .AboutContainer{
-        height: 300vh;
     }
-    .innerContainer{
-       flex-direction: column;
-    }
-
+    
+    
     .aboutSectionContainer{
         width: 100%;
-        height: 60%;
-        flex-direction: column;
- 
+        height: 90%;
+       
     }
-
-    .barContainer{
-        width: 100%;
-        height: 20%;
-    }
-    .bar {
-        width: 100%;
-        height: 20px;
-        box-shadow: 4px 4px 5px rgba(6, 165, 165, 0.376);
-      }
-      
-      
     
     .infoContainer{
         width: 100%;
-        height: 100%;
+        height: 90%;
+        padding-left: 0%;
+        border-left: none;
+        border-top: 15px solid aqua;
+        
     }
     
-    .info{
-        width: 100%;
-        height: 80%;
-      
+    .aboutSectionImageContainer{
+        display: none;
     }
     
     .aboutImage{
-        width: 100%;
-        height: 70%;
-        box-shadow: 5px 5px 10px rgba(0, 255, 255, 0.22);
+        display: none;
     }
-
-    .aboutInfoText p{
-        font-size: 10px;
-        
-        line-height: 1;
     
-        
+    
+    .aboutInfoTitle{
+        font-size: 3em;
+        font-family: $title-font;
+    }
+    
+    
+    .aboutText{
+        font-size: .8em;
+        font-family: $title-font;
+        text-align: left;
+        line-height: 1.5;
+       
     }
 
-  }
+    
+    
+    
+}
+
+
+
+@media only screen and (max-width: 300px){
+    
+   
+    .AboutContainer{
+        height: 140vh;
+        background-color: rgb(46, 46, 46);
+        
+    }
+    
+   
+    
+    
+    .aboutInfoTitle{
+        font-size: 2em;
+        font-family: $title-font;
+    }
+    
+    
+    .aboutText{
+        font-size: 5px;
+        font-family: $title-font;
+        text-align: left;
+       
+    }
+
+    
+    
+    
+}
+
+

@@ -6,7 +6,6 @@
     background-image: url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80");
     background-size: cover;
   
-    min-height: $min-Component-Height;
     
 }
 
@@ -35,10 +34,10 @@
 
 .info p{
     color: rgba(231, 231, 231, 0.619);
-    font-size: $SubText-size-Desktop;
+    font-size: 2em;
 }
 .info h2{
-    font-size: $large-Title-size-Desktop;
+    font-size: 5em;
 }
 .info h2 span {
     color: rgba(72, 184, 200, 1);
@@ -54,7 +53,18 @@
     @include buttonStyle;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
+    .backgroundImageContainer{
+       height: 200vh;
+        
+    }
+    
+    .infoContainer{
+        height: 100%;
+      
+        
+    }
+
     .infoContainer{
         justify-content: center;
         padding-left: 0%;
@@ -63,12 +73,12 @@
     }
 
     .info p{
-        font-size: $SubText-size-mobile;
+        font-size: 2em;
         text-align: center;
     }
     .info h2{
         text-align: center;
-        font-size: $large-Title-size-mobile;
+        font-size: 3em;
     }
 
 

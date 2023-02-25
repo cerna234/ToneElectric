@@ -11,16 +11,14 @@ const AboutInfo = () => {
 
     return(
         <div className={Styles.aboutSectionContainer}>
-                <div className={Styles.barContainer}>
-                    <div className={Styles.bar}></div>
-                </div>
+                
 
 
                 <div className={Styles.infoContainer}>
-                    <div className={Styles.info}>
+                    
                         <h2 className={Styles.aboutInfoTitle}>ABOUT TONE ELECTRIC</h2>
-                        <div className={Styles.aboutInfoText}>
-                            <p>
+                        
+                            <p className={Styles.aboutText}>
                                 If you need electrical service or maintenance on your office building or industrial complex, contact locally-owned Tone Electric. Our licensed CA electricians will trace out shorts, install new lighting or run electrical lines, Circuits, Case Connections, Cooler Box Connections, Power walls, Lighting control, and more.
                             
                                 Our experts are available to work with construction companies on light commercial projects and will follow the electrical engineer’s plans, install according to specs and have everything ready for the city engineers to approve the final hookup. We’ll take care of the permits and schedule the appropriate inspections.
@@ -32,9 +30,9 @@ const AboutInfo = () => {
                                 Tone Electric has been operating for the last 20yrs locally owned.
                             </p>
                         
-                        </div>
+                       
                         <Link href="/">Learn More About Our team</Link>
-                    </div>
+                    
                 </div>
         </div>
     )

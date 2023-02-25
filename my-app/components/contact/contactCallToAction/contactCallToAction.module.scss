@@ -37,7 +37,7 @@
     
 	-webkit-text-stroke: 1px rgb(255, 255, 255);
     text-shadow: 15px 15px 10px rgba(9, 9, 9, 0.251);
-    font-size: $large-Title-size-Desktop;
+    font-size: 5em;
     width: 80%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 600px) {
     .callToActionTitle{
-        font-size: $large-Title-size-mobile - 10;
+        font-size: 3em;
         width: 100%;
     
     }
