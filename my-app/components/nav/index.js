@@ -9,7 +9,15 @@ import Logo from "../../public/Images/logo.png"
 const NavBar = () => {
     return (
       <nav className=  {`${Styles.navOverride} navbar navbar-expand-lg navbar-light bg-light `}>
-  <a class="navbar-brand" href="#">LOGO</a>
+  <Link href="/">
+     <Image
+      src={Logo}
+      height={60}
+      alt="logo"
+     
+
+     />
+    </Link>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
