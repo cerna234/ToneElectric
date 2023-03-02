@@ -66,12 +66,14 @@
 .link{
     display: flex;
     font-size: 20px;
+    font-family: $title-font;
 
    
 }
 
 .link:hover{
-    color: red;
+    color: rgb(111, 108, 108);
+
 }
 
 .linkArrow{

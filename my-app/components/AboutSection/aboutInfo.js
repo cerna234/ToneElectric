@@ -32,7 +32,7 @@ const AboutInfo = () => {
                             </p>
                         
                        
-                        <Link className={Styles.link} href="/contact">Request a Quote<span> <MdArrowForwardIos className={Styles.linkArrow} /></span></Link>
+                        <Link className={Styles.link} href="/contact">Request Quote<span> <MdArrowForwardIos className={Styles.linkArrow} /></span></Link>
                     
                 </div>
         </div>

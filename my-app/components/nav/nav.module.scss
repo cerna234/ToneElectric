@@ -1,10 +1,11 @@
 @import "../baseStyles/baseStyles.scss";
 
 .navOverride{
-    position: fixed;
+    
     width: 100%;
     background-color: rgba(18, 18, 18, 0) !important;
     z-index: 100;
+    position: absolute;
 }
 
 .links{
