@@ -11,7 +11,9 @@
     align-items: center;
     overflow-x: hidden;
     background-color: rgb(41, 41, 41);
-    min-height: 600px;
+    min-height: 2000px;
+
+    
 
   
 }
@@ -39,12 +41,13 @@
 
 
 .innerContainer{
-    width: 70%;
-    height: 80%;
-
+    width: 60%;
+    height: 90%;
+    min-height: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
   
 }
 
@@ -59,14 +62,23 @@
 .imageCard{
     width: 220px;
     height: 300px;
-   box-shadow: 5px 6px 8px rgba(0, 0, 0, 0.165);
+   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+   z-index: 3;
+
+  
    
 }
 
-.worksImg{
+.backgroundImageContainer{
     width: 100%;
     height: 60%;
+}
+.worksImg{
+    width: 100%;
+    height: 100%;
     background-size: cover;
+    
+    
 
     
 }
@@ -74,10 +86,12 @@
 .worksContent{
     width: 100%;
     height: 50%;
-    background-color: rgb(103, 101, 101);
+    background-color: rgb(80, 80, 80);
     display: flex;
     
     align-items: center;
+    border-radius: 0px 0px 5px 5px;
+   
     
 }
 
@@ -88,16 +102,20 @@
     flex-direction: column;
     justify-content: space-between;
     padding-left: 10px;
+  
+    
 }
 
 .RecentWorksTitle{
-    font-size: 30px;
+    font-size: 50px;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.63);
 }
 
 .RecentWorksSubtext{
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 20px;
     color: aqua;
+    text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.379);
 }
 
 
@@ -105,36 +123,57 @@
     color: rgb(43, 43, 43);
     font-weight: bold;
     height: 10%;
+    font-size: 20px;
 }
 
 .worksContentSubtext{
     color: rgb(20, 77, 112);
     font-weight: bold;
     height: 10%;
+    font-size: 15px;
 }
 .worksContentDescription{
     color: rgba(216, 216, 216, 0.878);
-    height: 60%
+    height: 60%;
+    font-size: 10px;
     
 }
 
 
 .RecentWorksCallToActionButton{
     @include buttonStyle;
+  
 }
 
-@media screen and (max-width:1000px) {
+
+
+
+
+@media screen and (max-width:600px){
 
     .RecentWorksCallToActionContainer{
         width: 100%;
-        height: 200vh;
+        
         
     }
     .imageCard{
         width: 100%;
         height: 250px;
+        
     }
 
+
+    .RecentWorksTitle{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .RecentWorksSubtext{
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: aqua;
+        text-align: center;
+    }
 
     .RecentWorksContainer{
         width: 100%;
@@ -147,12 +186,13 @@
     }
 
     .innerContainer{
-        width: 80%;
+        width: 100%;
         height: 90%;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+       
       
     }
     
@@ -160,11 +200,12 @@
 
 
 
-@media screen and (max-width:1000px) {
+@media screen and ((max-width:1000px)) {
 
     .RecentWorksCallToActionContainer{
         width: 100%;
         height: 300vh;
+      
     }
     .imageCard{
         width: 100%;
@@ -183,13 +224,26 @@
     }
 
     .innerContainer{
-        width: 60%;
+        width: 80%;
         height: 90%;
         align-items: center;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
       
+    }
+
+    .worksContentInner{
+        width: 90%;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .worksContent{
+        width: 100%;
+        justify-content: center;
+       
+        
     }
     
 }

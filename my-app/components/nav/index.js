@@ -9,11 +9,12 @@ import Logo from "../../public/Images/logo.png"
 const NavBar = () => {
     return (
       <nav className=  {`${Styles.navOverride} navbar navbar-expand-lg navbar-light bg-light `}>
-  <Link href="/">
+  <Link className={Styles.logoLink} href="/">
      <Image
       src={Logo}
       height={60}
       alt="logo"
+      className={Styles.logo}
      
 
      />
