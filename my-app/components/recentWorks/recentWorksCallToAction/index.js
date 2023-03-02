@@ -18,9 +18,12 @@ const RecentWorksCallToAction = () => {
                         {RecentWorks.map((value,key) => {
                             return(
                                 value.featured == true ?  <div className={Styles.imageCard} key={key}>
-                                <div style={{backgroundImage:`url(${value.img.src})`}} className={Styles.worksImg}>
-                                    
-                                </div>
+                                    <div className={Styles.backgroundImageContainer}>
+                                        <div style={{backgroundImage:`url(${value.img.src})`}} className={Styles.worksImg}>
+                                        
+                                        </div>
+                                    </div>
+                                
                                 <div className={Styles.worksContent}>
                                     <div className={Styles.worksContentInner}>
                                     <p className={Styles.worksContentTitle}>{value.workTitle}</p>
