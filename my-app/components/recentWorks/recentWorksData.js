@@ -1,5 +1,5 @@
 
-import traderJoes from "../../public/Images/traderJoes.png"
+import traderJoes from "../../public/Images/TraderJoes.png"
 import Sprouts from "../../public/Images/Sprouts.jpeg"
 import AmazonFresh from "../../public/Images/amzFresh.png"
 
