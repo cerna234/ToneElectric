@@ -1,6 +1,7 @@
 
 import Styles from "../AboutSection/about.module.scss"
 import Link from "next/link";
+import { MdArrowForwardIos } from "react-icons/md";
 
 
 const AboutInfo = () => {
@@ -31,7 +32,7 @@ const AboutInfo = () => {
                             </p>
                         
                        
-                        <Link href="/">Learn More About Our team</Link>
+                        <Link className={Styles.link} href="/">Learn More About Our team <span> <MdArrowForwardIos className={Styles.linkArrow} /></span></Link>
                     
                 </div>
         </div>

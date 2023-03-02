@@ -3,6 +3,7 @@ import Link from "next/link";
 import Styles from "../nav/nav.module.scss"
 import Image from "next/image";
 import Logo from "../../public/Images/logo.png"
+import { AiOutlineAlignRight } from "react-icons/ai";
 
 
 
@@ -19,11 +20,11 @@ const NavBar = () => {
 
      />
     </Link>
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button className={`${Styles.hamburgerIconContainer}  navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className={Styles.hamburgerIcon}><AiOutlineAlignRight/></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div className={`${Styles.navLinkDesktop} collapse navbar-collapse`} id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto">
       
       <li className={`nav-item`}>
