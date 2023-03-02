@@ -1,5 +1,7 @@
-import img1 from "../../public/Images/aboutImg.png"
-import img2 from "../../public/Images/aboutImg2.png"
+
+import traderJoes from "../../public/Images/traderJoes.png"
+import Sprouts from "../../public/Images/Sprouts.jpeg"
+import AmazonFresh from "../../public/Images/amzFresh.png"
 
 
 
@@ -7,38 +9,38 @@ const RecentWorks = [
 
     {
         "featured": true,
-        "img": img1,
-        "workTitle":"TITLE 1",
-        "workSubtext": "subtext",
+        "img": traderJoes,
+        "workTitle":"Trader Joes",
+        "workSubtext": "West Hollywood",
         "workDescription":"Lorem Ipsum is simply dummy text of the printing and "
     },
     {
         "featured": false,
-        "img": img1,
+        "img": Sprouts,
         "workTitle":"TITLE 1",
         "workSubtext": "subtext",
         "workDescription":"nddnbnd"
     },
     {
         "featured": true,
-        "img": img2,
-        "workTitle":"TITLE 1",
-        "workSubtext": "subtext",
+        "img": AmazonFresh,
+        "workTitle":"Amazon Fresh",
+        "workSubtext": "La Habra",
         "workDescription":"nddnbnd"
     },
 
     {
         "featured": true,
-        "img": img1,
-        "workTitle":"TITLE 1",
-        "workSubtext": "subtext",
+        "img": Sprouts,
+        "workTitle":"Sprouts",
+        "workSubtext": "Lake Forrest",
         "workDescription":"nddnbnd"
     },
 
     {
         "featured": false,
-        "img": img1,
-        "workTitle":"TITLE 1",
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
         "workSubtext": "subtext",
         "workDescription":"nddnbnd"
     }

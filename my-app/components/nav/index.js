@@ -25,7 +25,7 @@ const NavBar = () => {
   </button>
 
   <div className={`${Styles.navLinkDesktop} collapse navbar-collapse`} id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto">
+    <ul className="navbar-nav ms-auto">
       
       <li className={`nav-item`}>
         <Link className={`${Styles.links} nav-link`} href="/">Home</Link>
