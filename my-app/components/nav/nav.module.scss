@@ -1,13 +1,21 @@
+@import "../baseStyles/baseStyles.scss";
+
 .navOverride{
-    position: fixed;
+    
     width: 100%;
     background-color: rgba(18, 18, 18, 0) !important;
     z-index: 100;
+    position: absolute;
 }
 
 .links{
     color: rgb(229, 224, 224);
+    font-family: $title-font;
+
+    font-size: 20px;
 }
+
+
 
 
 .navLinkDesktop{
@@ -33,7 +41,8 @@
 }
 
 .links:hover{
-    color: rgb(72, 72, 72);
+    color: $Tone-Blue;
+    border-bottom: 2px solid white;
 }
 @media screen and (max-width:900px) {
     .links{

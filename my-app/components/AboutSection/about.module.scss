@@ -29,7 +29,7 @@
     width: 80%;
     height: 80%;
     padding-left: 10%;
-    border-left: 30px solid aqua;
+    border-left: 30px solid $Tone-Blue;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -45,7 +45,7 @@
 .aboutImage{
     width: 80%;
     height: 78%;
-    box-shadow: 5px 5px 9px rgb(2, 156, 211);
+    box-shadow: 5px 5px 9px $Tone-Blue;
 }
 
 
@@ -66,16 +66,19 @@
 .link{
     display: flex;
     font-size: 20px;
+    font-family: $title-font;
 
    
 }
 
 .link:hover{
-    color: red;
+    color: rgb(111, 108, 108);
+
 }
 
 .linkArrow{
-    color: rgb(45, 191, 216);
+    color: $Tone-Blue;
+    font-size: 20px;
    
 }
 
@@ -111,7 +114,7 @@
         height: 90%;
         padding-left: 0%;
         border-left: none;
-        border-top: 15px solid aqua;
+        border-top: 15px solid $Tone-Blue;
         
     }
     

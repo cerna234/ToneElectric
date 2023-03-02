@@ -12,7 +12,7 @@ const RecentWorksCallToAction = () => {
 
             <div className={Styles.innerContainer}>
                 <p className={Styles.RecentWorksTitle}>RECENT WORKS</p>
-                <p className={Styles.RecentWorksSubtext}>featured projects</p>
+                <p className={Styles.RecentWorksSubtext}>Featured projects</p>
                 
                     <div className={Styles.RecentWorksContainer}>
                         {RecentWorks.map((value,key) => {

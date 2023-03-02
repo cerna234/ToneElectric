@@ -3,7 +3,7 @@
 
 .backgroundImageContainer{
     @include ComponentLayout;
-    background-image: url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80");
+    background-image: url("https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80");
     background-size: cover;
   
     
@@ -12,7 +12,7 @@
 
 .infoContainer{
     @include ComponentLayout;
-    background-image: linear-gradient(rgba(26, 26, 26, 0.842),rgba(18, 18, 18, 0.041));
+    background-color: rgba(0, 0, 0, 0.453);
     display: flex;
     justify-content: left;
     align-items: center;
@@ -40,7 +40,7 @@
     font-size: 5em;
 }
 .info h2 span {
-    color: rgba(72, 184, 200, 1);
+    color: $Tone-Blue;
 }
 
 .buttonsContainer{
