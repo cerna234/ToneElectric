@@ -16,8 +16,8 @@ const AboutInfo = () => {
 
 
                 <div className={Styles.infoContainer}>
-                    
-                        <h2 className={Styles.aboutInfoTitle}>ABOUT TONE ELECTRIC</h2>
+                        <p className={Styles.infoContainerSectionTitle}>About Us</p>
+                        <h2 className={Styles.aboutInfoTitle}>TONE ELECTRIC</h2>
                         
                             <p className={Styles.aboutText}>
                                 If you need electrical service or maintenance on your office building or industrial complex, contact locally-owned Tone Electric. Our licensed CA electricians will trace out shorts, install new lighting or run electrical lines, Circuits, Case Connections, Cooler Box Connections, Power walls, Lighting control, and more.
