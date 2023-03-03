@@ -3,15 +3,26 @@ import mapImage from "../../../public/Images/mapImage.png"
 import Image from "next/image";
 import React from 'react';
 import { useForm,ValidationError } from "@formspree/react";
+import { BsCheck2Circle } from "react-icons/bs";
+import Link from "next/link";
 
 
  
 
 const Form = () => {
-    const [state, handleSubmit] = useForm("YOUR_FORM_ID");
+    const [state, handleSubmit] = useForm("xqkoqpba");
 
     if (state.succeeded) {
-      return <p>Thanks for your submission!</p>;
+      return (
+        <div className={Styles.succeededContainer}>
+            <div className={Styles.succeededMessage}>
+                <BsCheck2Circle className={Styles.succesIcon}/>
+                <p className={Styles.succeededTitle}>Thank you!</p>
+                <p className={Styles.succeededSubtext}>The form was submitted succesfully</p>
+                <Link className={Styles.succeededButton} href="/">Back to home</Link>
+            </div>
+        </div>
+      );
     }
     
     return(
