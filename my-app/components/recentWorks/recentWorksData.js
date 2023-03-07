@@ -43,6 +43,41 @@ const RecentWorks = [
         "workTitle":"West Hollywood",
         "workSubtext": "subtext",
         "workDescription":"nddnbnd"
+    },
+    {
+        "featured": false,
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
+        "workSubtext": "subtext",
+        "workDescription":"nddnbnd"
+    },
+    {
+        "featured": false,
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
+        "workSubtext": "subtext",
+        "workDescription":"nddnbnd"
+    },
+    {
+        "featured": false,
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
+        "workSubtext": "subtext",
+        "workDescription":"nddnbnd"
+    },
+    {
+        "featured": false,
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
+        "workSubtext": "subtext",
+        "workDescription":"nddnbnd"
+    },
+    {
+        "featured": false,
+        "img": AmazonFresh,
+        "workTitle":"West Hollywood",
+        "workSubtext": "subtext",
+        "workDescription":"nddnbnd"
     }
 ]
 
