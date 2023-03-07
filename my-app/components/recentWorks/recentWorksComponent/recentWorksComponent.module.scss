@@ -28,3 +28,33 @@
     align-items: center;
     justify-content: center;
 }
+
+.imageCard{
+    width: 380px;
+    height: 360px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
+  
+
+  
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .projectsPageProjectCard{
+        width:200px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageCard{
+        width: 280px;
+        height: 260px;
+     
+      
+    
+      
+       
+    }
+  }
