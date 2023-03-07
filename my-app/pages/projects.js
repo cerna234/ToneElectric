@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import RecentWorksComponents from '@/components/recentWorks/recentWorksComponent'
+import Styles from  "../components/recentWorks/recentWorksComponent/recentWorksComponent.module.scss"
 
 export default function Home() {
   return (
@@ -9,8 +11,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <h1>PROJECTS PAGE</h1>
+      <main className={Styles.projectPage}>
+        <RecentWorksComponents/>
       </main>
     </>
   )

@@ -43,7 +43,7 @@ const RecentWorksCallToAction = () => {
                     
                
 
-                <Link className={Styles.RecentWorksCallToActionButton} href="/">View All</Link>
+                <Link className={Styles.RecentWorksCallToActionButton} href="/projects">View All</Link>
             </div>
         </div>
 

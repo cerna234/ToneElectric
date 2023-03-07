@@ -1,4 +1,4 @@
-import Styles from "../ContactComponent/contact.module.scss"
+
 import ContactHeader from "./ContactHeader";
 import ContactForm from "./ContactForm";
 
