@@ -17,7 +17,7 @@ const RecentWorksComponents = () => {
                     <div key={key} className={`${Styles.column} col`}>
                         <div className={Styles.projectsPageProjectCard}>
                             
-                        <div className={CardStyles.imageCard} key={key}>
+                        <div className={Styles.imageCard} key={key}>
                                     <div className={CardStyles.backgroundImageContainer}>
                                         <div style={{backgroundImage:`url(${value.img.src})`}} className={CardStyles.worksImg}>
                                         
