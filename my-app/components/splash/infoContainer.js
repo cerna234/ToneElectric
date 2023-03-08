@@ -10,7 +10,7 @@ const InfoConatiner = () => {
                     <p>WELCOME TO TONE ELECTRIC</p>
                     <h2>FROM CONCEPT TO <span>CREATION</span></h2>
                  
-                    <Link className={Styles.button} href="/about">Learn More</Link>
+                    <Link className={Styles.button} href="/projects">View Creations</Link>
                         
                 
             </div>

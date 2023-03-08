@@ -36,7 +36,7 @@ const NavBar = () => {
       </li>
 
       <li className={`nav-item`}>
-        <Link className={`${Styles.links} nav-link`} href="/">Projects</Link>
+        <Link className={`${Styles.links} nav-link`} href="/projects">Projects</Link>
       </li>
     </ul>
     
