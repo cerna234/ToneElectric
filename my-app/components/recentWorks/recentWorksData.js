@@ -12,21 +12,24 @@ const RecentWorks = [
         "img": traderJoes,
         "workTitle":"Trader Joes",
         "workSubtext": "West Hollywood",
-        "workDescription":"Lorem Ipsum is simply dummy text of the printing and "
+        "workDescription":"Lorem Ipsum is simply dummy text of the printing and ",
+        "alt":"image of trader joes"
     },
     {
         "featured": false,
         "img": Sprouts,
         "workTitle":"TITLE 1",
         "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
+        "workDescription":"nddnbnd",
+        "alt":"image of sprouts"
     },
     {
         "featured": true,
         "img": AmazonFresh,
         "workTitle":"Amazon Fresh",
         "workSubtext": "La Habra",
-        "workDescription":"nddnbnd"
+        "workDescription":"nddnbnd",
+        "alt":"image of amazon fresh building"
     },
 
     {

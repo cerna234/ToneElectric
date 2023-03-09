@@ -15,11 +15,11 @@ const RecentWorksCallToAction = () => {
                 <p className={Styles.RecentWorksSubtext}>Featured projects</p>
                 
                     <div className={Styles.RecentWorksContainer}>
-                        {RecentWorks.map((value,key) => {
+                        {RecentWorks.slice(0, 4).map((value,key) => {
                             return(
                                 value.featured == true ?  <div className={Styles.imageCard} key={key}>
                                     <div className={Styles.backgroundImageContainer}>
-                                        <div style={{backgroundImage:`url(${value.img.src})`}} className={Styles.worksImg}>
+                                        <div title={value.alt} style={{backgroundImage:`url(${value.img.src})`}} className={Styles.worksImg}>
                                         
                                         </div>
                                     </div>
