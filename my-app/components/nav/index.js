@@ -27,16 +27,16 @@ const NavBar = () => {
   <div className={`${Styles.navLinkDesktop} collapse navbar-collapse`} id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       
-      <li className={`nav-item`}>
-        <Link className={`${Styles.links} nav-link`} href="/">Home</Link>
+      <li className={`nav-item `}>
+        <Link className={`${Styles.links} ` }  href="/">Home</Link>
       </li>
       
       <li className={`nav-item`}>
-        <Link className={`${Styles.links} nav-link`} href="/contact">Contact</Link>
+        <Link className={`${Styles.links} `} href="/contact">Contact</Link>
       </li>
 
       <li className={`nav-item`}>
-        <Link className={`${Styles.links} nav-link`} href="/projects">Projects</Link>
+        <Link className={`${Styles.links}`} href="/projects">Projects</Link>
       </li>
     </ul>
     
