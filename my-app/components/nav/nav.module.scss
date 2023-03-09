@@ -6,11 +6,13 @@
     background-color: rgba(18, 18, 18, 0) !important;
     z-index: 100;
     position: absolute;
+    font-family: $title-font;
+
 }
 
 .links{
     color: rgb(229, 224, 224);
-    font-family: $title-font;
+   
     
     font-size: 20px;
     padding: 20px;
