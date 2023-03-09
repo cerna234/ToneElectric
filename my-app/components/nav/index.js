@@ -10,7 +10,7 @@ import { AiOutlineAlignRight } from "react-icons/ai";
 const NavBar = () => {
 
 
-    {console.log(navbar-toggler)}
+
 
     return (
       <nav className=  {`${Styles.navOverride} navbar navbar-expand-lg navbar-light bg-light `}>
