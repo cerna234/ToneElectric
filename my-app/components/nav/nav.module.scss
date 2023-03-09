@@ -56,19 +56,32 @@
     .links{
         color: rgb(229, 224, 224);
         width: 100%;
-      
+        height: 10px;
         text-align: right;
+        padding: 0px;
+       
+        
    
       
     
     }
+
+    .links:hover{
+        color: none;
+        border-bottom: none;
+    }
+    
 
     .navLinkDesktop{
         padding-top: 0vh;
         padding-right: 0vh;
         background-color: rgba(43, 43, 43, 0.057);
         display: flex;
-        
+        flex-direction: column;
+        justify-content: space-between;
+        transition: .3s ease-in-out;
+        text-align: right;
+     
     }
 
    
