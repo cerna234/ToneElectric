@@ -3,7 +3,9 @@ import RecentProjectsComponentHeader from "../recentWorksComponent/RecentProject
 
 import Styles from "../recentWorksComponent/recentWorksComponent.module.scss"
 import CardStyles from "../../recentWorks/recentWorksCallToAction/recentWorksCallToAction.module.scss"
+
 const RecentWorksComponents = () => {
+    
     return (
        
     <div className={Styles.imagesContainer}>

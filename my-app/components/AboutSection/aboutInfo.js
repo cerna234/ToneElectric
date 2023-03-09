@@ -2,7 +2,7 @@
 import Styles from "../AboutSection/about.module.scss"
 import Link from "next/link";
 import { MdArrowForwardIos } from "react-icons/md";
-
+import { motion } from "framer-motion";
 
 const AboutInfo = () => {
 
@@ -15,7 +15,14 @@ const AboutInfo = () => {
                 
 
 
-                <div className={Styles.infoContainer}>
+                <motion.div
+                
+                className={Styles.infoContainer}
+                initial={{ x:"-30%",opacity:0}}
+                whileInView={{ x:"0%",opacity:1 }}
+                transition={{type:"ease", duration:1}}
+                
+                >
                         <p className={Styles.infoContainerSectionTitle}>About Us</p>
                         <h2 className={Styles.aboutInfoTitle}>TONE ELECTRIC</h2>
                         
@@ -34,7 +41,7 @@ const AboutInfo = () => {
                        
                         <Link className={Styles.link} href="/contact">Request Quote<span> <MdArrowForwardIos className={Styles.linkArrow} /></span></Link>
                     
-                </div>
+                </motion.div>
         </div>
     )
 }

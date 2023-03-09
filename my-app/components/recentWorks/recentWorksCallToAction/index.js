@@ -1,7 +1,7 @@
 import Styles from "../recentWorksCallToAction/recentWorksCallToAction.module.scss"
 import RecentWorks from "../recentWorksData"
 import Link from "next/link"
-
+import { motion } from "framer-motion"
 
 const RecentWorksCallToAction = () => {
     return(
@@ -11,10 +11,23 @@ const RecentWorksCallToAction = () => {
             <p className={Styles.companyName}>TONE <span className={Styles.companyNameSpan}>ELECTRIC</span></p>
 
             <div className={Styles.innerContainer}>
+                <motion.div
+                    initial={{ y:"-90%",opacity:0}}
+                    whileInView={{ y:"0%",opacity:1 }}
+                    transition={{type:"ease", duration:1}}
+                >
                 <p className={Styles.RecentWorksTitle}>RECENT WORKS</p>
                 <p className={Styles.RecentWorksSubtext}>Featured projects</p>
+
+                </motion.div>
                 
-                    <div className={Styles.RecentWorksContainer}>
+                    <motion.div
+                    
+                        className={Styles.RecentWorksContainer}
+                        initial={{ x:"-90%",opacity:0}}
+                        whileInView={{ x:"0%",opacity:1 }}
+                        transition={{type:"ease", duration:1}}
+                    >
                         {RecentWorks.slice(0, 4).map((value,key) => {
                             return(
                                 value.featured == true ?  <div className={Styles.imageCard} key={key}>
@@ -39,7 +52,7 @@ const RecentWorksCallToAction = () => {
                             )
                         })}
 
-                    </div>
+                    </motion.div>
                     
                
 
