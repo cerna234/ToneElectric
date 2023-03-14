@@ -56,7 +56,7 @@ const Footer = () => {
             </div>
 
             <div className={Styles.footerBottomhalf}>
-                <p>COPYRIGHT@COPYRIGHT</p>
+                <p><small>&copy; Copyright 2023, Tone Electric</small></p>
             </div>
             
         </div>
