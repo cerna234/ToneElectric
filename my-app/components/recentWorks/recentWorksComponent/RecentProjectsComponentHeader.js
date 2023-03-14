@@ -13,7 +13,7 @@ const RecentProjectsComponentHeader = () => {
             
             >
                 <h2>Recent Projects</h2>
-                <p>jjdb</p>
+                <p>Tone Electric has been operating for the last 20yrs locally owned. Contact us today for an estimate on your commercial electrical work.</p>
             </motion.div>
         </div>
     )

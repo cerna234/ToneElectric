@@ -30,7 +30,7 @@
 }
 
 .imageCard{
-    width: 380px;
+    width: 320px;
     height: 320px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.281);
   
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 600px) {
     .projectsPageProjectCard{
-        width:200px;
+        width:280px;
         height: 400px;
         display: flex;
         justify-content: center;
@@ -49,7 +49,7 @@
     }
 
     .imageCard{
-        width: 280px;
+        width: 360px;
         height: 260px;
      
       

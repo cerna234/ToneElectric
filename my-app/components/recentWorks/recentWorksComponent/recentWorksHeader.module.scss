@@ -24,8 +24,11 @@
 }
 
 .headerInnerContainer p{
-    color: rgb(225, 223, 223);
-    font-size: 20px;
+    color: rgb(166, 166, 166);
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: center;
+    width: 70%;
 }
 
 
@@ -36,4 +39,11 @@
         font-size: 45px;
         text-align: center;
     }
+
+    .headerInnerContainer p{
+        font-size: 10px;
+        width: 100%;
+        
+    }
 }
+
