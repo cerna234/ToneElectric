@@ -8,80 +8,24 @@ import AmazonFresh from "../../public/Images/amzFresh.png"
 const RecentWorks = [
 
     {
-        "featured": true,
-        "img": traderJoes,
-        "workTitle":"Trader Joes",
-        "workSubtext": "West Hollywood",
-        "workDescription":"Lorem Ipsum is simply dummy text of the printing and ",
+
+        "imageSrc": traderJoes,
+        "workCaption":"Capti d ",
         "alt":"image of trader joes"
     },
     {
-        "featured": false,
-        "img": Sprouts,
-        "workTitle":"TITLE 1",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd",
-        "alt":"image of sprouts"
-    },
-    {
-        "featured": true,
-        "img": AmazonFresh,
-        "workTitle":"Amazon Fresh",
-        "workSubtext": "La Habra",
-        "workDescription":"nddnbnd",
-        "alt":"image of amazon fresh building"
-    },
 
-    {
-        "featured": true,
-        "img": Sprouts,
-        "workTitle":"Sprouts",
-        "workSubtext": "Lake Forrest",
-        "workDescription":"nddnbnd"
+        "imageSrc": Sprouts,
+        "workCaption":"Sprouts",
+        "alt":"image of Sprouts"
     },
+    {
 
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
+        "imageSrc": AmazonFresh,
+        "workCaption":"AmazonFresh",
+        "alt":"image of AmazonFresh"
     },
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
-    },
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
-    },
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
-    },
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
-    },
-    {
-        "featured": false,
-        "img": AmazonFresh,
-        "workTitle":"West Hollywood",
-        "workSubtext": "subtext",
-        "workDescription":"nddnbnd"
-    }
+    
 ]
 
 export default RecentWorks;
