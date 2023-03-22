@@ -44,7 +44,7 @@ const RecentWorksCallToAction = () => {
 
                         {RecentWorks.map((value,key) => {
                             return(
-                                <div className={`${Styles.imageContainer}carousel`} key={key}>
+                                <div className={`${Styles.imageContainer} carousel`} key={key}>
                                     <p>{value.workCaption}</p>
                                     <Image
                                      src={value.imageSrc}
