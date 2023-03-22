@@ -14,9 +14,9 @@ const InfoConatiner = () => {
             >
                 
                     <p>WELCOME TO TONE ELECTRIC</p>
-                    <h2>FROM CONCEPT TO <span>CREATION</span></h2>
+                    <h2 className={Styles.SplashTitle}>FROM CONCEPT TO <span>CREATION</span></h2>
                  
-                    <Link className={Styles.button} href="/projects">View Creations</Link>
+                    <Link className={Styles.button} href="/contact">Learn more</Link>
                         
                 
             </motion.div>

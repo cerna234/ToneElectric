@@ -23,7 +23,7 @@ const AboutInfo = () => {
                 transition={{type:"ease", duration:1}}
                 
                 >
-                        <p className={Styles.infoContainerSectionTitle}>About Us</p>
+
                         <h2 className={Styles.aboutInfoTitle}>TONE ELECTRIC</h2>
                         
                             <p className={Styles.aboutText}>

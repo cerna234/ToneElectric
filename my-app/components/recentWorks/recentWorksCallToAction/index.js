@@ -2,8 +2,17 @@ import Styles from "../recentWorksCallToAction/recentWorksCallToAction.module.sc
 import RecentWorks from "../recentWorksData"
 import Link from "next/link"
 import { motion } from "framer-motion"
+import Image from "next/image"
+import img from "../../../public/Images/amzFresh.png"
+import img2 from "../../../public/Images/Sprouts.jpeg"
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
+
 
 const RecentWorksCallToAction = () => {
+
+
     return(
 
  
@@ -28,35 +37,33 @@ const RecentWorksCallToAction = () => {
                         whileInView={{ x:"0%",opacity:1 }}
                         transition={{type:"ease", duration:1}}
                     >
-                        {RecentWorks.slice(0, 4).map((value,key) => {
-                            return(
-                                value.featured == true ?  <div className={Styles.imageCard} key={key}>
-                                    <div className={Styles.backgroundImageContainer}>
-                                        <div title={value.alt} style={{backgroundImage:`url(${value.img.src})`}} className={Styles.worksImg}>
-                                        
-                                        </div>
-                                    </div>
-                                
-                                <div className={Styles.worksContent}>
-                                    <div className={Styles.worksContentInner}>
-                                    <p className={Styles.worksContentTitle}>{value.workTitle}</p>
-                                    <p className={Styles.worksContentSubtext}>{value.workSubtext}</p>
-                                    <p className={Styles.worksContentDescription}>{value.workDescription}</p>
-                                    </div>
-                                   
-                                </div>
-                            </div> : "" 
-                               
+                        
+                       
+                    
+                        <Carousel className={Styles.carouselContainer} showThumbs={false}>
 
-                                
+                        {RecentWorks.map((value,key) => {
+                            return(
+                                <div className={`${Styles.imageContainer}carousel`} key={key}>
+                                    <p>{value.workCaption}</p>
+                                    <Image
+                                     src={value.imageSrc}
+                                     alt={value.alt}
+                                    />
+                                     
+                                </div>
                             )
                         })}
+                 
+
+                
+                  
+                 
+              </Carousel>
 
                     </motion.div>
                     
-               
-
-                <Link className={Styles.RecentWorksCallToActionButton} href="/projects">View All</Link>
+            
             </div>
         </div>
 

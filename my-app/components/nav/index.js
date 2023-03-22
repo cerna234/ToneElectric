@@ -39,9 +39,7 @@ const NavBar = () => {
         <Link className={`${Styles.links} `} href="/contact">Contact</Link>
       </li>
 
-      <li className={`nav-item`}>
-        <Link className={`${Styles.links}`} href="/projects">Projects</Link>
-      </li>
+    
     </ul>
     
   </div>
