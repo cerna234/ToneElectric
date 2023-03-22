@@ -1,10 +1,7 @@
 import Styles from "../recentWorksCallToAction/recentWorksCallToAction.module.scss"
 import RecentWorks from "../recentWorksData"
-import Link from "next/link"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import img from "../../../public/Images/amzFresh.png"
-import img2 from "../../../public/Images/Sprouts.jpeg"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
