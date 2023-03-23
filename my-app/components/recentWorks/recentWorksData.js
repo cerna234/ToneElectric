@@ -2,7 +2,7 @@
 import traderJoes from "../../public/Images/TraderJoes.png"
 import Sprouts from "../../public/Images/Sprouts.jpeg"
 import AmazonFresh from "../../public/Images/amzFresh.png"
-
+import mapImage from "../../public/Images/test.png"
 
 
 const RecentWorks = [
@@ -19,6 +19,27 @@ const RecentWorks = [
         "workCaption":"Sprouts",
         "alt":"image of Sprouts"
     },
+    {
+
+        "imageSrc": AmazonFresh,
+        "workCaption":"AmazonFresh",
+        "alt":"image of AmazonFresh"
+    },
+
+    {
+
+        "imageSrc": mapImage,
+        "workCaption":"AmazonFresh",
+        "alt":"image of AmazonFresh"
+    },
+
+    {
+
+        "imageSrc": mapImage,
+        "workCaption":"AmazonFresh",
+        "alt":"image of AmazonFresh"
+    },
+
     {
 
         "imageSrc": AmazonFresh,
