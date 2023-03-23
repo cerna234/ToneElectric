@@ -37,26 +37,26 @@ const RecentWorksCallToAction = () => {
                         
                        
                     
-                        <Carousel className={Styles.carouselContainer} showThumbs={false}>
-
+                        <Carousel 
+                        
+                        className={Styles.carouselContainer} 
+                        dynamicHeight={true} >
+                        
                         {RecentWorks.map((value,key) => {
                             return(
-                                <div className={`${Styles.imageContainer} carousel`} key={key}>
-                                    <p>{value.workCaption}</p>
-                                    <Image
-                                     src={value.imageSrc}
-                                     alt={value.alt}
-                                    />
+                                <div className={Styles.Container} key={key}>
+                                 
+                                    <img alt={value.alt} src={value.imageSrc.src}></img>
+                                 
+                             
                                      
                                 </div>
                             )
                         })}
                  
 
-                
-                  
-                 
-              </Carousel>
+            
+                        </Carousel>
 
                     </motion.div>
                     
