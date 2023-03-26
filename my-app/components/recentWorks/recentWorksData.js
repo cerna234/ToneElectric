@@ -1,51 +1,65 @@
 
-import traderJoes from "../../public/Images/TraderJoes.png"
-import Sprouts from "../../public/Images/Sprouts.jpeg"
-import AmazonFresh from "../../public/Images/amzFresh.png"
-import mapImage from "../../public/Images/test.png"
+import amzFresh from "../../public/Images/RecentWorksImages/amzFresh.png"
+import BoneFishGrill from "../../public/Images/RecentWorksImages/BoneFishGrill.png"
+import TraderJoes from "../../public/Images/RecentWorksImages/TraderJoes.png"
+import LaHabraAmazonFresh from "../../public/Images/RecentWorksImages/LaHabraAmazonFresh.jpeg"
+import Sprouts from "../../public/Images/RecentWorksImages/Sprouts.jpeg"
+import wholefoods2 from "../../public/Images/RecentWorksImages/wholefoods-2.jpg"
+import TustinMarketFoodCourtTopView from "../../public/Images/RecentWorksImages/TustinMarketFoodCourtTopView.jpg"
+import SproutsLaBreaFinal from "../../public/Images/RecentWorksImages/SproutsLaBreaFinal.PNG"
+import SproutsLakeForest from "../../public/Images/RecentWorksImages/SproutsLakeForest.PNG"
+
+
 
 
 const RecentWorks = [
 
     {
 
-        "imageSrc": traderJoes,
-        "workCaption":"Capti d ",
-        "alt":"image of trader joes"
+        "imageSrc": amzFresh,
+        "alt":"image of Amazon Fresh Building"
+    },
+    {
+
+        "imageSrc": BoneFishGrill,
+        "alt":"image of BoneFishGrill Building"
+    },
+    {
+
+        "imageSrc": TraderJoes,
+        "alt":"image of TraderJoes Building"
+    },
+    {
+
+        "imageSrc": LaHabraAmazonFresh,
+        "alt":"image of La Habra Amazon Fresh Building"
     },
     {
 
         "imageSrc": Sprouts,
-        "workCaption":"Sprouts",
-        "alt":"image of Sprouts"
+        "alt":"image of Sprouts Building"
     },
     {
 
-        "imageSrc": AmazonFresh,
-        "workCaption":"AmazonFresh",
-        "alt":"image of AmazonFresh"
+        "imageSrc": wholefoods2,
+        "alt":"image of whole foods Building"
     },
-
     {
 
-        "imageSrc": mapImage,
-        "workCaption":"AmazonFresh",
-        "alt":"image of AmazonFresh"
+        "imageSrc": TustinMarketFoodCourtTopView,
+        "alt":"image of Tustin Market Food Court Top View"
     },
-
     {
 
-        "imageSrc": mapImage,
-        "workCaption":"AmazonFresh",
-        "alt":"image of AmazonFresh"
+        "imageSrc": SproutsLaBreaFinal,
+        "alt":"image of Sprouts La Brea Final Building"
     },
-
     {
 
-        "imageSrc": AmazonFresh,
-        "workCaption":"AmazonFresh",
-        "alt":"image of AmazonFresh"
+        "imageSrc": SproutsLakeForest,
+        "alt":"image of Sprouts LakeForest Building"
     },
+    
     
 ]
 
