@@ -6,8 +6,8 @@ import LaHabraAmazonFresh from "../../public/Images/RecentWorksImages/LaHabraAma
 import Sprouts from "../../public/Images/RecentWorksImages/Sprouts.jpeg"
 import wholefoods2 from "../../public/Images/RecentWorksImages/wholefoods-2.jpg"
 import TustinMarketFoodCourtTopView from "../../public/Images/RecentWorksImages/TustinMarketFoodCourtTopView.jpg"
-import SproutsLaBreaFinal from "../../public/Images/RecentWorksImages/SproutsLaBreaFinal.png"
-import SproutsLakeForest from "../../public/Images/RecentWorksImages/SproutsLakeForest.png"
+import SproutsLaBreaFinal from "../../public/Images/RecentWorksImages/LaBreaSprouts.png"
+import SproutsLakeForest from "../../public/Images/RecentWorksImages/lakeForrestSprouts.png"
 
 
 
