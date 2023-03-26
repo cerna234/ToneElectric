@@ -2,7 +2,7 @@ import * as React from "react";
 import Link from "next/link";
 import Styles from "../nav/nav.module.scss"
 import Image from "next/image";
-import Logo from "../../public/Images/logo.png"
+import Logo from "../../public/Images/ToneElectricLogo.png"
 import { AiOutlineAlignRight } from "react-icons/ai";
 
 

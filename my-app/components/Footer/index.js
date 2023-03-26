@@ -1,6 +1,6 @@
 import Styles from "../Footer/footer.module.scss"
 import Image from "next/image";
-import Logo from "../../public/Images/logo.png"
+import Logo from "../../public/Images/ToneElectricLogo.png"
 const Footer = () => {
     return(
         <div className={Styles.footerContainer}>
