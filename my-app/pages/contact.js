@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import ContactComponent from '@/components/contact/ContactComponent'
 import Styles from "../components/contact/contactPage.module.scss"
-import Logo from "../public/Images/logo.png"
+import Logo from "../public/Images/ToneElectricLogo.png"
 export default function ContactPage() {
   return (
     <>

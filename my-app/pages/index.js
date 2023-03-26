@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Splash from '@/components/splash'
 import AboutSection from '@/components/AboutSection'
 import ContactCallToAction from '@/components/contact/contactCallToAction'
-import Logo from "../public/Images/logo.png"
+import Logo from "../public/Images/ToneElectricLogo.png"
 import RecentWorksCallToAction from '@/components/recentWorks/recentWorksCallToAction'
 
 
