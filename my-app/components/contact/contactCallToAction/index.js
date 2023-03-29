@@ -2,9 +2,11 @@
 import Styles from "../../contact/contactCallToAction/contactCallToAction.module.scss";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Footer from "@/components/Footer";
 const ContactCallToAction = () => {
     return(
-        <div className={Styles.contactCallToActionContainer}>
+        <div className={Styles.contactCallToActionOutterContainer}>
+            <div className={Styles.contactCallToActionContainer}>
             <div className={Styles.ContactCallToActionInner}>
                 <div className={Styles.ContactCallToActionInnerOverlay}>
 
@@ -21,6 +23,14 @@ const ContactCallToAction = () => {
                 
             </div>
         </div>
+
+
+        <Footer/>
+
+        
+
+        </div>
+        
     )
 }
 
