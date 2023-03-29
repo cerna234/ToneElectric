@@ -10,6 +10,7 @@
 }
 
 
+
 .infoContainer{
     @include ComponentLayout;
     background-color: rgba(0, 0, 0, 0.453);
@@ -36,7 +37,7 @@
     color: rgba(231, 231, 231, 0.619);
     font-size: 2em;
 }
-.info h2{
+.SplashTitle{
     color: white;
     font-size: 5em;
 }

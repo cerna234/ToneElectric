@@ -21,11 +21,6 @@ const RecentWorks = [
     },
     {
 
-        "imageSrc": BoneFishGrill,
-        "alt":"image of BoneFishGrill Building"
-    },
-    {
-
         "imageSrc": TraderJoes,
         "alt":"image of TraderJoes Building"
     },
