@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className={Styles.footerSection}>
                     <div className={Styles.footerSectionInner}>
                         <div className={Styles.titleSection}>
-                            <h2>OFFICE</h2>
+                            <h2 className={Styles.footerSectionTitle}>OFFICE</h2>
                         </div>
                         <div className={Styles.info}>
                             <p>Tone Electric
@@ -44,7 +44,7 @@ const Footer = () => {
                 <div className={Styles.footerSection}>
                     <div className={Styles.footerSectionInner}>
                         <div className={Styles.titleSection}>
-                            <h2>CONTACT</h2>
+                            <h2 className={Styles.footerSectionTitle}>CONTACT</h2>
                         </div>
                         <div className={Styles.info}>
                             <p>TEL: (909) 594-8460</p>

@@ -12,9 +12,9 @@ const ContactHeader = () => {
                 transition={{type:"ease", duration:1}}
                 
                 >
-                    <h2>WELCOME TO TONE ELECTRIC</h2>
-                    <p>Interested?</p>
-                    <p>Fill the form and we&apos;ll be in touch</p>
+                    <h2 className={Styles.contactHeaderTitle}>WELCOME TO TONE ELECTRIC</h2>
+                    <p className={Styles.contactHeaderSubtext}>Interested?</p>
+                    <p className={Styles.contactHeaderSubtext}>Fill the form and we&apos;ll be in touch</p>
                 </motion.div>
             </div>
            
