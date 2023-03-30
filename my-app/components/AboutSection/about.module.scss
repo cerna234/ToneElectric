@@ -126,8 +126,11 @@
     
    
     .AboutContainer{
-        height: 130vh;
-        background-color: rgb(46, 46, 46);
+        height: 160vh;
+        background-image: url("../../public/Images/TraderJoesMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
         
     }
     
@@ -156,7 +159,9 @@
     }
     
     .aboutSectionImageContainer{
-        display: none;
+       display: none;
+        
+        
     }
     
     .aboutImage{
@@ -176,9 +181,11 @@
         font-family: $title-font;
         text-align: left;
         line-height: 1.5;
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.892);
        
     }
 
+    
     
     
     
