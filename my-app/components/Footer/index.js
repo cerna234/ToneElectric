@@ -10,8 +10,8 @@ const Footer = () => {
                         <div className={Styles.titleSection}>
                             <Image
                                 src={Logo}
-                                height={100}
-                                width={130}
+                                height={0}
+                                width={0}
                                 className={Styles.footerLogo}
                                 alt="logo of Tone Electric"
                             /> 

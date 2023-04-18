@@ -12,7 +12,7 @@
     width: 100%;
     height: 50vh;
     justify-content: space-between;
-    background-color: rgba(7, 7, 7, 0.601);
+    background-color: rgba(7, 7, 7, 0.626);
     min-height: 400px;
     max-height: 900px;
 
@@ -43,7 +43,7 @@
 .footerSectionInner{
     
     width: 50%;
-    height: 100%;
+    height:80%;
     align-items: left;
     justify-content: space-between;
     
@@ -61,11 +61,15 @@
 .footerLogo{
     width: 80px;
     height: 80px;
+    
+
+    
 }
 
 .info{
     width: 100%;
     height: 50%;
+ 
 }
 
 .footerSectionTitle {
@@ -73,6 +77,8 @@
     font-size: 30px;
     padding-bottom: 20px ;
     font-family: $title-font;
+ 
+   
 }
 
 
@@ -82,12 +88,12 @@
     text-align: left;
     font-size: 13px;
     padding-top: 15px;
-    color: $Tone-Blue;
+    color: rgba(255, 255, 255, 0.848);
     font-family: $Subtext-font;
 }
 
 .logoSectionText{
-    color: rgba(184, 184, 184, 0.65) !important;
+    color: rgba(232, 230, 230, 0.835) !important;
 }
 
 .footerBottomhalf{
@@ -157,7 +163,7 @@
     }
 
 .footerContainer{
-    background-color: rgba(7, 7, 7, 0.507);
+    background-color: rgba(7, 7, 7, 0.783);
    
 
     
