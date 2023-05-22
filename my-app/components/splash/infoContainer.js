@@ -14,7 +14,7 @@ const InfoConatiner = () => {
             >
                 
                     <p>WELCOME TO VERTEX ARCHITECTS</p>
-                    <h2 className={Styles.SplashTitle}>Step into a world where design  <span>comes alive</span></h2>
+                    <h2 className={Styles.SplashTitle}>World where design  <span>comes alive</span></h2>
                  
                     <Link className={Styles.button} href="/contact">Learn more</Link>
                         

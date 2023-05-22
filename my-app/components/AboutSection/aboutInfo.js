@@ -24,18 +24,11 @@ const AboutInfo = () => {
                 
                 >
 
-                        <h2 className={Styles.aboutInfoTitle}>TONE ELECTRIC</h2>
+                        <h2 className={Styles.aboutInfoTitle}>VERTEX ARCHITECTS</h2>
                         
                             <p className={Styles.aboutText}>
-                                If you need electrical service or maintenance on your office building or industrial complex, contact locally-owned Tone Electric. Our licensed CA electricians will trace out shorts, install new lighting or run electrical lines, Circuits, Case Connections, Cooler Box Connections, Power walls, Lighting control, and more.
-                            
-                                Our experts are available to work with construction companies on light commercial projects and will follow the electrical engineer’s plans, install according to specs and have everything ready for the city engineers to approve the final hookup. We’ll take care of the permits and schedule the appropriate inspections.
-                          
-
-                       
-                                We’ve licensed CA electricians and work in Southern CA and Mid County. Contact us today for an estimate on your commercial electrical work. To power up your savings.
-
-                                Tone Electric has been operating for the last 20yrs locally owned.
+                               
+Vertex Architects is a leading architecture company dedicated to crafting exceptional design solutions. With a passion for innovation and a commitment to excellence, we specialize in creating inspiring and functional spaces that elevate the human experience. Our team of talented architects combines creative vision with technical expertise to deliver projects that surpass client expectations. From residential and commercial buildings to urban planning and interior design, Vertex Architects strives to shape a built environment that harmonizes aesthetics, sustainability, and functionality. With a focus on collaboration and a deep understanding of client needs, we transform ideas into reality, building a legacy of timeless architecture
                             </p>
                         
                        
