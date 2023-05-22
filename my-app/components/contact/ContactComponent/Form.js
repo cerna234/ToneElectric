@@ -1,5 +1,5 @@
 import Styles from "../ContactComponent/contact.module.scss";
-import mapImage from "../../../public/Images/mapImage.png"
+import mapImage from "../../../public/Images/RecentWorksImages/map.jpeg"
 import Image from "next/image";
 import React from 'react';
 import { useForm,ValidationError } from "@formspree/react";

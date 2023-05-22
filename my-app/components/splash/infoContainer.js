@@ -13,8 +13,8 @@ const InfoConatiner = () => {
               
             >
                 
-                    <p>WELCOME TO TONE ELECTRIC</p>
-                    <h2 className={Styles.SplashTitle}>FROM CONCEPT TO <span>CREATION</span></h2>
+                    <p>WELCOME TO VERTEX ARCHITECTS</p>
+                    <h2 className={Styles.SplashTitle}>Step into a world where design  <span>comes alive</span></h2>
                  
                     <Link className={Styles.button} href="/contact">Learn more</Link>
                         

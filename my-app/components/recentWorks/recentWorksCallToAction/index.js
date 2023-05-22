@@ -14,7 +14,7 @@ const RecentWorksCallToAction = () => {
 
  
         <div className = {Styles.RecentWorksCallToActionContainer}>
-            <p className={Styles.companyName}>TONE <span className={Styles.companyNameSpan}>ELECTRIC</span></p>
+            <p className={Styles.companyName}>Vertex <span className={Styles.companyNameSpan}> Architects</span></p>
 
             <div className={Styles.innerContainer}>
                 <motion.div
@@ -46,7 +46,7 @@ const RecentWorksCallToAction = () => {
                             return(
                                 <div className={Styles.Container} key={key}>
                                  
-                                    <img alt={value.alt} src={value.imageSrc.src}></img>
+                                    <img  alt={value.alt} src={value.imageSrc.src}></img>
                                  
                              
                                      

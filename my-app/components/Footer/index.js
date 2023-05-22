@@ -7,18 +7,10 @@ const Footer = () => {
             <div className={Styles.footerTopHalf}>
                 <div className={Styles.footerSection}>
                     <div className={Styles.footerSectionInner}>
-                        <div className={Styles.titleSection}>
-                            <Image
-                                src={Logo}
-                                height={100}
-                                width={130}
-                                className={Styles.footerLogo}
-                                alt="logo of Tone Electric"
-                            /> 
-                        </div>
+                        
                         
                         <div className={Styles.info}>
-                            <p className={Styles.logoSectionText}>TONE ELECTRIC</p>
+                            <p style={{fontSize:"30px",color:"white"}}> <span style={{color:"rgba(0, 255, 255, 1)"}}>VERTEX</span> ARCHITECTS</p>
                             <p className={Styles.logoSectionText}>since 1988</p>
                         </div>
                     </div>
@@ -32,11 +24,11 @@ const Footer = () => {
                             <h2 className={Styles.footerSectionTitle}>OFFICE</h2>
                         </div>
                         <div className={Styles.info}>
-                            <p>Tone Electric
-                                20793 E Valley Blvd Unit B
-                                Walnut, CA 91789
+                            <p>Vertex Architects
+                                28493 E Valley Blvd Unit 12 
+                                Winchester
                             </p>
-                            <p>Fax: (909) 594-8460</p>
+                            <p>Fax: (819) 564-8944</p>
                         </div>
                     </div>
                     
@@ -47,8 +39,8 @@ const Footer = () => {
                             <h2 className={Styles.footerSectionTitle}>CONTACT</h2>
                         </div>
                         <div className={Styles.info}>
-                            <p>TEL: (909) 594-8460</p>
-                            <p>Email: info@tonelectric.com</p>
+                            <p>TEL: (819) 564-8944</p>
+                            <p>Email: info@VertexArchitects.com</p>
                         </div>
                     </div>
                     
@@ -56,7 +48,7 @@ const Footer = () => {
             </div>
 
             <div className={Styles.footerBottomhalf}>
-                <p><small>&copy; Copyright 2023, Tone Electric</small></p>
+                <p><small>&copy; Copyright 2023, Vertex Architects</small></p>
             </div>
             
         </div>

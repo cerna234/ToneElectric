@@ -1,13 +1,13 @@
 
-import amzFresh from "../../public/Images/RecentWorksImages/amzFresh.png"
-import BoneFishGrill from "../../public/Images/RecentWorksImages/BoneFishGrill.png"
-import TraderJoes from "../../public/Images/RecentWorksImages/TraderJoes.png"
-import LaHabraAmazonFresh from "../../public/Images/RecentWorksImages/LaHabraAmazonFresh.jpeg"
-import Sprouts from "../../public/Images/RecentWorksImages/Sprouts.jpeg"
-import wholefoods2 from "../../public/Images/RecentWorksImages/wholefoods-2.jpg"
-import TustinMarketFoodCourtTopView from "../../public/Images/RecentWorksImages/TustinMarketFoodCourtTopView.jpg"
-import SproutsLaBreaFinal from "../../public/Images/RecentWorksImages/LaBreaSprouts.png"
-import SproutsLakeForest from "../../public/Images/RecentWorksImages/lakeForrestSprouts.png"
+import Image1 from "../../public/Images/RecentWorksImages/Image1.jpg"
+import Image2 from "../../public/Images/RecentWorksImages/Image2.jpg"
+import Image3 from "../../public/Images/RecentWorksImages/Image3.jpg"
+import Image4 from "../../public/Images/RecentWorksImages/Image3.jpg"
+
+import Image5 from "../../public/Images/RecentWorksImages/Image5.jpg"
+import Image7 from "../../public/Images/RecentWorksImages/Image7.jpg"
+
+
 
 
 
@@ -16,44 +16,32 @@ const RecentWorks = [
 
     {
 
-        "imageSrc": amzFresh,
+        "imageSrc": Image2,
         "alt":"image of Amazon Fresh Building"
     },
     {
 
-        "imageSrc": TraderJoes,
-        "alt":"image of TraderJoes Building"
+        "imageSrc": Image3,
+        "alt":"image of Amazon Fresh Building"
     },
     {
 
-        "imageSrc": LaHabraAmazonFresh,
-        "alt":"image of La Habra Amazon Fresh Building"
+        "imageSrc": Image4,
+        "alt":"image of Amazon Fresh Building"
+    },
+   
+    {
+
+        "imageSrc": Image5,
+        "alt":"image of Amazon Fresh Building"
     },
     {
 
-        "imageSrc": Sprouts,
-        "alt":"image of Sprouts Building"
+        "imageSrc": Image7,
+        "alt":"image of Amazon Fresh Building"
     },
-    {
+    
 
-        "imageSrc": wholefoods2,
-        "alt":"image of whole foods Building"
-    },
-    {
-
-        "imageSrc": TustinMarketFoodCourtTopView,
-        "alt":"image of Tustin Market Food Court Top View"
-    },
-    {
-
-        "imageSrc": SproutsLaBreaFinal,
-        "alt":"image of Sprouts La Brea Final Building"
-    },
-    {
-
-        "imageSrc": SproutsLakeForest,
-        "alt":"image of Sprouts LakeForest Building"
-    },
     
     
 ]

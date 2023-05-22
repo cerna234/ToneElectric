@@ -2,7 +2,7 @@ import * as React from "react";
 import Link from "next/link";
 import Styles from "../nav/nav.module.scss"
 import Image from "next/image";
-import Logo from "../../public/Images/ToneElectricLogo.png"
+import Logo from "../../public/Images/RecentWorksImages/logo.png"
 import { AiOutlineAlignRight } from "react-icons/ai";
 
 
@@ -15,14 +15,7 @@ const NavBar = () => {
     return (
       <nav className=  {`${Styles.navOverride} navbar navbar-expand-lg navbar-light bg-light `}>
   <Link className={Styles.logoLink} href="/">
-     <Image
-      src={Logo}
-      height={60}
-      alt="logo"
-      className={Styles.logo}
-     
-
-     />
+    <h2 style={{color:"white"}}>VERTEX <span style={{color:"rgba(0, 255, 255, 1)"}}>ARCHITECTS</span></h2>
     </Link>
   <button className={`${Styles.hamburgerIconContainer}  navbar-toggler`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className={Styles.hamburgerIcon}><AiOutlineAlignRight/></span>
